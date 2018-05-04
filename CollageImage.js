@@ -187,7 +187,7 @@ class CollageImage extends React.Component {
           onLongPress={ () => onLongPress() }>
           <Image
             source={{ uri: image.url }}
-            resizeMode='cover'
+            resizeMode='contain'
             style={[ imageStyle,
               {
                 width: width,
